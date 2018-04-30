@@ -27,7 +27,7 @@
   </bsdf>
   <surface type="Mesh">
     <bsdf ref="teapot" />
-    <data>../../meshes/teapot.obj</data>
+    <data>../meshes/teapot.obj</data>
   </surface>
 
   <environment type="Cubemap">

@@ -29,7 +29,7 @@
     <surface type="Group">
         <translate>0 2 -5</translate>
         <surface type="Mesh">
-            <data>../../meshes/teapot.obj</data>
+            <data>../meshes/teapot.obj</data>
             <bsdf ref="glaze0" />
         </surface>
         <surface type="Box">

@@ -25,7 +25,7 @@
   
   <surface type="Mesh">
       <bsdf ref="bunny" />
-      <data>../../meshes/bunnyNV.obj</data>
+      <data>../meshes/bunnyNV.obj</data>
   </surface>
   <surface type="Box">
       <minpt>-3 -2 -3</minpt>

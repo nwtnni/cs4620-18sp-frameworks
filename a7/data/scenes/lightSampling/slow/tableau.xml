@@ -37,7 +37,7 @@
   <rotate>0 90 0</rotate>
   <surface type="Mesh">
     <BSDF ref="glass"/>
-    <data>../../meshes/bunny10k_norms.obj</data>
+    <data>../meshes/bunny10k_norms.obj</data>
   </surface>
 </surface>
   
@@ -49,7 +49,7 @@
   <translate>1 0.8 -1</translate>
   <surface type="Mesh">
     <bsdf ref="glazed"/>
-    <data>../../meshes/horse_norms.obj</data>
+    <data>../meshes/horse_norms.obj</data>
   </surface>
 </surface>
   

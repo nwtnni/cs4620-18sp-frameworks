@@ -33,7 +33,7 @@
     <scale>10 10 10</scale>
     <surface type="Mesh">
       <bsdf ref="horse" />
-      <data>../../meshes/horse_norms.obj</data>
+      <data>../meshes/horse_norms.obj</data>
     </surface>
   </surface>
   <surface type="Box">
