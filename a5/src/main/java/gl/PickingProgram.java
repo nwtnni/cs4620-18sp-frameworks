@@ -25,7 +25,7 @@ public class PickingProgram implements IDisposable {
 	private final ByteBuffer ibID = NativeMem.createByteBuffer(4);
 	
 	public PickingProgram() {
-		program.quickCreateResource("Pick", "gl/Pick.vert", "gl/Pick.frag", null);
+		program.quickCreateResource("Pick", "shaders/Pick.vert", "shaders/Pick.frag", null);
 		fxsi.build(program.semanticLinks);
 	}
 	@Override

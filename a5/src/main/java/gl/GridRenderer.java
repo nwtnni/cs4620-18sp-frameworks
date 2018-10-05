@@ -128,7 +128,7 @@ public class GridRenderer implements IDisposable {
 		
 		HashMap<String, Integer> attrMap = new HashMap<>();
 		attrMap.put("vPos", 0);
-		program.quickCreateResource("Grid", "gl/Grid.vert", "gl/Grid.frag", attrMap);
+		program.quickCreateResource("Grid", "shaders/Grid.vert", "shaders/Grid.frag", attrMap);
 	}
 	
 	@Override

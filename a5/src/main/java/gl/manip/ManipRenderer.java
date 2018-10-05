@@ -68,7 +68,7 @@ public class ManipRenderer implements IDisposable {
 		
 		HashMap<String, Integer> attrMap = new HashMap<>();
 		attrMap.put("vPos", 0);
-		program.quickCreateResource("Manip", "gl/manip/Manip.vert", "gl/manip/Manip.frag", attrMap);
+		program.quickCreateResource("Manip", "shaders/Manip.vert", "shaders/Manip.frag", attrMap);
 	}
 	@Override
 	public void dispose() {

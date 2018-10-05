@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "splines.RevolutionApp"
+
+dependencies {
+    compile fileTree(dir: 'lib', include: ['*.jar'])
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": mainClassName
+    }
+ 
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+// Note: can toggle stdout for test results here
+test {
+    testLogging {
+        showStandardStreams = true
+    }
+}
