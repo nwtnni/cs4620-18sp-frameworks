@@ -1,0 +1,6 @@
+# Build artifacts
+build/
+.gradle/
+
+# Generated .OBJ files
+*.obj
