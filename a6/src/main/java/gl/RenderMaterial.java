@@ -69,7 +69,7 @@ public class RenderMaterial implements IDisposable {
 		}
 	}
 
-	private static final String ROOT_DIRECTORY = "gl/shaders/";
+	private static final String ROOT_DIRECTORY = "shaders/";
 	private static final String PROVIDER_FORMAT_TEXTURE = 
 			" uniform sampler2D tex%s; " + 
 					"vec4 get%sColor(vec2 uv) { " + 

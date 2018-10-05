@@ -59,7 +59,7 @@ public class DiagnosticScreen extends GameScreen {
 	@Override
 	public void build() {
 		program = new GLProgram();
-		program.quickCreateResource("Diag", "util/Diag.vert", "util/Diag.frag", null);
+		program.quickCreateResource("Diag", "shaders/Diag.vert", "shaders/Diag.frag", null);
 		
 		fxsi = new ShaderInterface(new ArrayBind[]{
 				new ArrayBind(Semantic.Position, GLType.Float, 3, 0),
@@ -89,7 +89,7 @@ public class DiagnosticScreen extends GameScreen {
 		texture = new GLTexture(TextureTarget.Texture2D, true);
 		texture.internalFormat = PixelInternalFormat.Rgba;
 		try {
-			texture.setImage2DResource("util/Diag.png", false);
+			texture.setImage2DResource("images/Diag.png", false);
 		} catch (Exception e) {
 			System.out.println("NO IMAGE\r\n" + e.getMessage());
 		}

@@ -1,3 +1,15 @@
-/bin/
+# Build artifacts
+build/
+.gradle/
+
+# GL diagnostic files
 GLDiag.txt
+Diag.png
+
+# Eclipse files
+.classpath
 .DS_Store
+.project
+
+# MacOS files
+**/__MACOSX/
