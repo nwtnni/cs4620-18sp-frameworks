@@ -10,3 +10,4 @@ build/
 
 # MacOS files
 **/__MACOSX/
+/bin/

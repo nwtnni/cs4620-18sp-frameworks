@@ -1,5 +1,3 @@
-package ray1.tests;
-
 import org.junit.Test;
 
 import egl.math.Colorf;

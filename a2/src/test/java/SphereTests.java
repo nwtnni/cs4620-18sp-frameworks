@@ -1,5 +1,3 @@
-package ray1.tests;
-
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
