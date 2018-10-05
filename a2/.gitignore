@@ -1,0 +1,7 @@
+# Build artifacts
+build/
+.gradle/
+
+# Generated image files
+*.exr
+*.png
