@@ -5,3 +5,11 @@ build/
 # Generated image files
 *.exr
 *.png
+
+# Eclipse files
+.classpath
+.DS_Store
+.project
+
+# MacOS files
+**/__MACOSX/

@@ -2,4 +2,13 @@
 build/
 .gradle/
 
+# GL diagnostic file
 GLDiag.txt
+
+# Eclipse files
+.classpath
+.DS_Store
+.project
+
+# MacOS files
+**/__MACOSX/

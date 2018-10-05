@@ -4,3 +4,11 @@ build/
 
 # Generated .OBJ files
 *.obj
+
+# Eclipse files
+.classpath
+.DS_Store
+.project
+
+# MacOS files
+**/__MACOSX/
