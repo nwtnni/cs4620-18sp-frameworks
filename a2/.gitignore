@@ -10,6 +10,8 @@ build/
 .classpath
 .DS_Store
 .project
+.settings
 
 # MacOS files
 **/__MACOSX/
+/bin/
