@@ -16,10 +16,3 @@ jar {
         configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
-
-// Note: can toggle stdout for test results here
-test {
-    testLogging {
-        showStandardStreams = true
-    }
-}
